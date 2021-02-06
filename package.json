@@ -1,0 +1,21 @@
+{
+  "name": "nodewebrtchat",
+  "version": "1.0.0",
+  "description": "Program chatting menggunakan node js untuk mengirim pesan teks, gambar, dan emoticon kepada pengguna lain menggunakan server",
+  "main": "chat.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node chat.js"
+  },
+  "keywords": [],
+  "author": "topan jaya santika",
+  "license": "ISC",
+  "dependencies": {
+    "delivery": "0.0.6",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.8",
+    "node-emoji": "^1.10.0",
+    "socket.io": "^2.4.1"
+  },
+  "devDependencies": {}
+}
